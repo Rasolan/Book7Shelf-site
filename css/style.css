@@ -12,18 +12,19 @@
     height: 10vh;
 
 }
-#discord {
-    
-    width: 230px;
-    height: 800px;
 
-}
 #h2 {
     font-size: 1.1em; /* Размер шрифта */
     color: black; /* Цвет текста */
     margin-top: auto; /* Отступ сверху */
     
 }
+
+
+
+
+
+/* Боковое меню */
 #headder {
     background: rgb(255, 255, 255); /* Цвет фона левой колонки */
     max-width: auto;
@@ -32,6 +33,42 @@
     box-shadow:  -19px -19px 38px #bfbfbf,
                  19px 19px 38px #ffffff;
 }
+
+li {
+    list-style-type: none;
+    /* Убираем маркеры */
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: -30px;
+}
+ul li {
+    margin-left: -10;
+    /* Отступ слева в браузере IE и Opera */
+    padding-left: -10px;
+    /* Отступ слева в браузере Firefox, Safari, Chrome */
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #headder div {
     font-family: "Comfortaa", cursive;
 }
