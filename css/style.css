@@ -12,7 +12,12 @@
     height: 10vh;
 
 }
+#discord {
+    
+    width: 230px;
+    height: 800px;
 
+}
 #h2 {
     font-size: 1.1em; /* Размер шрифта */
     color: black; /* Цвет текста */
