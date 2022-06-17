@@ -1,0 +1,107 @@
+#leftcol { 
+    float: auto; 
+    width: auto; 
+    width: auto;   
+}
+
+#body {
+    font: 2pt Arial, Helvetica, sans-serif; 
+    background: rgb(255, 255, 255);  
+    background: -webkit-linear-gradient(to right, black, black); 
+    background: linear-gradient(to right, #3d71bb, #E0EAFC); 
+    height: 10vh;
+
+}
+
+#h2 {
+    font-size: 1.1em; /* Размер шрифта */
+    color: black; /* Цвет текста */
+    margin-top: auto; /* Отступ сверху */
+    
+}
+#headder {
+    background: rgb(255, 255, 255); /* Цвет фона левой колонки */
+    max-width: auto;
+    border-radius: 10px;
+    background: linear-gradient(315deg, #cfcfcf, #f6f6f6);
+    box-shadow:  -19px -19px 38px #bfbfbf,
+                 19px 19px 38px #ffffff;
+}
+#headder div {
+    font-family: "Comfortaa", cursive;
+}
+
+#header {
+    font-size: 1.8em; /* Размер текста */
+    text-align: center; /* Выравнивание по центру */
+    padding: 3px; /* Отступы вокруг текста */
+    color: black; /* Цвет текста */
+    border-radius: 16px;
+    background: linear-gradient(315deg, #cfcfcf, #f6f6f6);
+    box-shadow:  -19px -19px 38px #bfbfbf,
+                 19px 19px 38px #ffffff;
+}
+#sidebar {
+    width: 227px; /* Ширина слоя */
+    padding: 0 10px; /* Отступы вокруг текста */
+    float: left; /* Обтекание по правому краю */
+    border-radius: 10px;
+    background: #ededed;
+    box-shadow: inset -23px 23px 45px #dadada,
+                inset 23px -23px 45px #ffffff;
+    height: 91vh;
+}
+#footer {
+    background: black; /* Цвет фона подвала */
+    color: rgb(255, 255, 255); /* Цвет текста */
+    padding: 5px; /* Отступы вокруг текста */
+    clear: left; /* Отменяем действие float */
+    border-radius: 5px;
+    background: linear-gradient(315deg, #252525, #2c2c2c);
+    box-shadow:  -17px -17px 52px #222222,
+                17px 17px 52px #303030;
+}
+
+
+#table {
+    border-spacing: 0 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: left;
+    text-align: left;
+}
+#th {
+    padding: 5px 240px;
+    background: #444444;
+    color: #ffffff;
+    border-right: 2px solid; 
+    font-size: 0.9em;
+    text-align: center;
+}
+    th:first-child {
+    text-align: left;
+}
+    th:last-child {
+    border-right: none;
+}
+    td {
+    vertical-align: left;
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+    border-top: 2px solid #444444;
+    border-bottom: 2px solid #444444;
+    border-right: 2px solid #444444;
+    text-align: left;
+}
+    td:first-child {
+    border-left: 2px solid #444444;
+    border-right: none;
+    text-align: left;
+}
+    td:nth-child(2){
+    text-align: left;
+}
+
+
+ 
+
